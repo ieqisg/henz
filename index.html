@@ -6,19 +6,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <style>
+    img{
+      max-height: 40rem;
+      max-width: 30rem;
+    }
     button{
-      position: relative;
-      bottom: 650px;
-      left: 300px;
-      height: 100px;
-      width: 80px;
+      position: absolute;
+      padding: 1.2rem;
+    }
+    .button1{
+      left: 5.2rem;
+    }
+    
+    #name{
+      color: red;
+      text-decoration: underline;
+      transition: 1s;
     }
   </style>
 </head>
 <body>
-  <h1>What is his name? <span id="name"></span></h1>
-  <button onclick="Burat()">Name1</button>
-  <button onclick="Tite()">Name2</button>
+  <h1>What is his name? <span id="name">_______________</span></h1>
+  <button class="button1" onclick="Burat()">Name1</button>
+  <button class="button2" onclick="Tite()">Name2</button>
   <img src="tite.jpg" alt="">
   
 
